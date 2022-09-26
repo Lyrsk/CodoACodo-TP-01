@@ -1,0 +1,67 @@
+/*########## Nav ##########*/
+#codoacodo {
+    color: white;
+}
+#img-logo {
+    width: 5em;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+/*########## Portada ##########*/
+.bg-opaco {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: 1;
+}
+#encabezado {
+    position: absolute;
+    top: 50%;
+    right: 110px;
+    text-align: end;
+    color: white;
+    z-index: 2;
+    width: 40em;
+}
+/*########## Section oradores ##########*/
+#oradores {
+    margin-top: 1em;
+}
+.text-oradores {
+    margin: 0;
+    padding: 0;
+}
+.card {
+    width: 20rem;
+}
+.nombre {
+    margin-top: 0.5em;
+}
+/*########## Section info ##########*/
+#info {
+    margin-bottom: 2em;
+}
+/*########## Section conviertete ##########*/
+#form {
+    width: 70%;
+}
+#charla {
+    color: #222;
+    text-decoration: none;
+    border-bottom: dotted #222;
+}
+#btn {
+    background-color: rgba(150, 201, 61, 1)
+}
+/*########## Footer ##########*/
+#footer {
+    padding: 2em;
+    background-color: #1d3947;
+}
